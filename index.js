@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-console.log("hello");
+console.log("you're on the wrong index, love");
 // TODO: Create an array of questions for user input
 //const questions = [];
 
