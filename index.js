@@ -32,19 +32,23 @@ const promptUser = () => {
         }
       },
     },
+    {
+      type: "list",
+      name: "license",
+      message:
+        "Select what license you would like to apply to your project: (Required)",
+      choices: ["MIT", "Apache", "GNU GPLv3"],
+    },
+    //type name message and choices for list
   ]);
 };
 // Create a function to write README file
 // the following is the provided code that wasn't reflected in Modules function writeToFile(fileName, data) {}
-//HELP for the following, how do I incorporate md syntax
-const readmeContent = "more sample text" + "a second sample text";
-
-//HELP for the following, how do I specify where the file should be created
-fs.writeFile("newreadme.md", readmeContent, (err) => {
-  if (err) throw err;
-});
 
 //function call for inquirer
 promptUser().then((answers) => {
   console.log(answers);
+  fs.writeFile("newreadme.md", genmd(answers), (err) => {
+    if (err) throw err;
+  });
 });
