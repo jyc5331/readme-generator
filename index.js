@@ -88,13 +88,23 @@ const promptUser = () => {
       message:
         "Please enter the github username(s) of any collaborators here. If there were none, leave this blank: (Required)",
     },
-    //type name message and choices for list
+    {
+      type: "input",
+      name: "email",
+      message: "Please enter your email address (Required)",
+      validate: (emailInput) => {
+        if (emailInput != "") {
+          return true;
+        } else {
+          console.log("Please enter your github username");
+          return false;
+        }
+      },
+    },
   ]);
 };
-// Create a function to write README file
-// the following is the provided code that wasn't reflected in Modules function writeToFile(fileName, data) {}
 
-//function call for inquirer
+// Create a function to write README file
 promptUser().then((answers) => {
   console.log(answers);
   fs.writeFile("newreadme.md", genmd(answers), (err) => {

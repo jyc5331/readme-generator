@@ -1,9 +1,9 @@
-# J 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Joey Jay 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Jo
+most excellent fansite
 
-##Table of Contents
+## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,21 +13,29 @@ Jo
 * [Questions](#Questions)
 
 ## Installation
-Joe
+download it henny
 
-##Usage
-Joey
+## Usage
+
+Use it henny
+
 Hello developer! Please insert a screenshot or video of your application here and delete this text.
 
 ## License:
-Apache
+MIT
 For more information on licensing, click on the badge at the top of this file. 
 
-##Contributing
-jyc5331 
-[Github repository:](https://github.com/)
-undefined
+## Contributing
 
-##Tests
+Created by: jyc5331 
 
-##Questions
+
+In collaboration with: kristy-coding
+
+## Tests
+
+## Questions
+
+You can contact me at: jcosgrovecoding@gmail.com
+
+You can check out my github profile here: [jyc5331](https://github.com/jyc5331)
